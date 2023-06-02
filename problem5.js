@@ -1,6 +1,5 @@
 let divisionTest = n => {
   let i
-  let r
   for (i = 1; i < 21; i++) {
     if (n % i != 0) {
       return false
